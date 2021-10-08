@@ -19,8 +19,8 @@ jobs:
     steps:
       - uses: actions/chectout@v2
       - uses: actions/setup-node@v2
-          with:
-            node-version: '14'
+        with:
+          node-version: "14"
       - name: Install
       - run: npm install
       - name: Build
