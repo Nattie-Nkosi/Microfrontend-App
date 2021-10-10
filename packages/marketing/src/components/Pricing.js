@@ -18,7 +18,7 @@ function Copyright() {
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
       <Link color="inherit" href="https://material-ui.com/">
-        Your Website
+        Microfrontend App
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -190,7 +190,7 @@ export default function Pricing() {
                 <CardContent>
                   <div className={classes.cardPricing}>
                     <Typography component="h2" variant="h3" color="textPrimary">
-                      ${tier.price}
+                      R{tier.price}
                     </Typography>
                     <Typography variant="h6" color="textSecondary">
                       /mo
